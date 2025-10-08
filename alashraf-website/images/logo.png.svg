@@ -1,0 +1,27 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- خلفية دائرية متدرجة -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a" />
+      <stop offset="100%" stop-color="#1b263b" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4cc9f0" />
+      <stop offset="100%" stop-color="#4361ee" />
+    </linearGradient>
+  </defs>
+
+  <!-- دائرة خلفية -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" />
+
+  <!-- أيقونة رقاقة إلكترونية (Microchip) -->
+  <path d="M100 60 L115 75 L115 90 L100 105 L85 90 L85 75 Z" fill="none" stroke="url(#textGradient)" stroke-width="3"/>
+  <line x1="100" y1="60" x2="100" y2="105" stroke="url(#textGradient)" stroke-width="2"/>
+  <line x1="85" y1="75" x2="115" y2="75" stroke="url(#textGradient)" stroke-width="2"/>
+  <line x1="85" y1="90" x2="115" y2="90" stroke="url(#textGradient)" stroke-width="2"/>
+
+  <!-- نص "الأشراف" (صغير في الأسفل) -->
+  <text x="100" y="165" text-anchor="middle" font-family="Tajawal, sans-serif" font-size="16" fill="url(#textGradient)" font-weight="700">
+    الأشراف
+  </text>
+</svg>
